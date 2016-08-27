@@ -1,9 +1,46 @@
+body{
+  background-color: teal;
+ }
 .demo-card-square.mdl-card {
-  width: 320px;
-  height: 320px;
+  width: 49%;
+  height: 49%;
+  float: left;
+  margin: 0.5%;
 }
 .demo-card-square > .mdl-card__title {
   color: #fff;
-  background:
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
 }
+.demo-card-square > .mdl-card__actions {
+  background-color: white;
+}
+.demo-card-square > .mdl-card__actions > a {
+	background-color: teal;
+	color: white;
+}
+.container {
+  width: 60%;
+  height: 80%;
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.portF {
+	background:
+    url('../img/') 100% 100% no-repeat;
+}
+.webP {
+	background:
+    url('../img/') bottom right 15% no-repeat;
+}
+.res {
+	background:
+    url('../img/') bottom right 15% no-repeat;
+}
+.prof {
+	background:
+    url('../img/') bottom right 15% no-repeat;
+}
+
