@@ -1,22 +1,48 @@
 body{
-  background-color: teal;
- }
-.demo-card-square.mdl-card {
+  background-color: #fff;
+ } 
+.demo-card-event.mdl-card {
   width: 49%;
   height: 49%;
   float: left;
   margin: 0.5%;
+  background: #3E4EB8;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-.demo-card-square > .mdl-card__title {
+.demo-card-event.mdl-card:hover
+{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.demo-card-event > .mdl-card__title {
+  align-items: flex-start;
+
+}
+.demo-card-event > .mdl-card__title > h4 {
+  margin-top: 0;
+}
+
+.demo-card-event > .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.demo-card-event > .mdl-card__actions > h2{
+	float: right;
+	color: #fff;
+}
+.demo-card-event > .mdl-card__actions > a {
+	color:#000000;
+}
+.demo-card-event > .mdl-card__actions > .material-icons {
+  padding-right: 10px;
+}
+.demo-card-event > .mdl-card__title,
+.demo-card-event > .mdl-card__actions,
+.demo-card-event > .mdl-card__actions > .mdl-button {
   color: #fff;
 }
-.demo-card-square > .mdl-card__actions {
-  background-color: white;
-}
-.demo-card-square > .mdl-card__actions > a {
-	background-color: teal;
-	color: white;
-}
+
 .container {
   width: 60%;
   height: 80%;
@@ -27,20 +53,31 @@ body{
     right: 0;
     margin: auto;
 }
-.portF {
-	background:
-    url('../img/') 100% 100% no-repeat;
+.portF:hover {
+	background: url('../img/portfolio.jpg');
+	-o-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+	-webkit-background-size:100% 100%; 
+	background-size: 100% 100%;
 }
-.webP {
-	background:
-    url('../img/') bottom right 15% no-repeat;
+
+.webP:hover {
 }
-.res {
+.res:hover {
 	background:
-    url('../img/') bottom right 15% no-repeat;
+    url('../img/resume.jpg');
+	-o-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+	-webkit-background-size:100% 100%; 
+	background-size: 100% 100%;
+
 }
-.prof {
+.prof:hover {
 	background:
-    url('../img/') bottom right 15% no-repeat;
+    url('../img/profiles.jpg') bottom right 15% no-repeat;
+	-o-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+	-webkit-background-size:100% 100%; 
+	background-size: 100% 100%;
 }
 

@@ -1,0 +1,75 @@
+body{
+  background-color: #fff;
+ }
+.demo-card-square.mdl-card {
+  width: 32%;
+  height: 32%;
+  float: left;
+  margin: 0.5%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.demo-card-square.mdl-card:hover
+{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.demo-card-square > .mdl-card__actions {
+	background-color: teal;
+}
+.demo-card-square > .mdl-card__actions > a {
+	background-color: white;
+	color:black;
+	width: 75%;
+	
+}
+.container {
+  width: 40%;
+  height: 65%;
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.fb {
+	background: url('../img/fb.png') black;
+	-o-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+	-webkit-background-size:100% 100%; 
+	background-size: 100% 100%;
+}
+.quora {
+	background: url('../img/quora.png') #fff;
+	-o-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+	-webkit-background-size:100% 100%; 
+	background-size: 100% 100%;
+}
+.twitter {
+	background: url('../img/twitter.png') black;
+	-o-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+	-webkit-background-size:100% 100%; 
+	background-size: 100% 100%;
+}
+.in {
+	background: url('../img/in.png') black;
+	-o-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+	-webkit-background-size:100% 100%; 
+	background-size: 100% 100%;
+}
+.insta {
+	background: url('../img/insta.jpg') black;
+	-o-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+	-webkit-background-size:100% 100%; 
+	background-size: 100% 100%;
+}
+.gith {
+	background: url('../img/github.png') black;
+	-o-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+	-webkit-background-size:100% 100%; 
+	background-size: 100% 100%;
+}
