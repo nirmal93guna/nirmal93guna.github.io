@@ -1,0 +1,17 @@
+body{
+	background-color:black;
+	margin: 0px 0px; 
+}
+div{
+	height:86px;
+	width:5%;
+	float:left;
+	background-color:black;
+	-webkit-transition: 1s;
+	-webkit-timing-function: linear;
+}
+div:hover {
+	background-color:aqua;	
+}
+	
+/*transform: perspective( 100px ) rotateY( 45deg );*/

@@ -1,0 +1,49 @@
+body{
+	background-color:black;
+	margin: 0px 0px; 
+}
+/*#head{
+	margin: 0px 0px;
+}
+#head:hover{
+	transform: rotateX(10) rotateY( 45deg );
+}*/
+#lineOne{
+	height:86px;
+	width:5%;
+	float:left;
+	background-color:black;
+	
+	-webkit-animation-name: line1;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes line1
+{	
+	0%   {background-color:black;}	
+    25%  {background-color:aqua; transform: perspective( 500px ) rotateY( 45deg );}
+    50%  {background-color:black;}
+    75%  {background-color:white; transform: perspective( 500px ) rotateY( 45deg );}
+    100% {background-color:black;}
+}
+
+
+#lineTwo{
+	height:86px;
+	width:5%;
+	float:left;
+	background-color:black;
+	-webkit-animation-name: line2;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes line2
+{	
+	0%   {background-color:aqua;}	
+    25%  {background-color:black;}
+    50%  {background-color:white;}
+    75%  {background-color:black;}
+    100% {background-color:aqua;}
+}
